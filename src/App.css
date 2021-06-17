@@ -14,7 +14,7 @@ body {
         background-color: #fff;
         border-radius: 3px;
         min-height: 50vh;
-        margin-top: 5%;
+        margin-top: 3%;
 }
 .text-holder {
         border: 2px solid #000;
@@ -57,22 +57,27 @@ body {
         padding: 5px 10px;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (max-width: 1024px) {
         .container {
-          width: 85%;
+                width: 85%;
         }
-      }
-      @media screen and (min-width: 374px) {
+}
+@media screen and (max-width: 768px) {
         .container {
-          width: 100%;
+                width: 80%;
+        }
+}
+@media screen and (max-width: 376px) {
+        .container {
+                width: 100%;
         }
         .text-holder {
                 width: 90%;
         }
-        .user-holder {
+         .user-holder {
                 width: 60%;
         }
         .button-holder {
                 width: 40%;
         }
-      }      
+}      
