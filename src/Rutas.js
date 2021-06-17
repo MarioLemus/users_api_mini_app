@@ -12,7 +12,7 @@ const Rutas = () => {
         return (
                 <Router>
                         <Switch>
-                                <Route exact path='/'>
+                                <Route exact path='/user.mini_app/'>
                                         <Home/>
                                 </Route>
                                 <Route exact path={ `/user/:id_param` }>
