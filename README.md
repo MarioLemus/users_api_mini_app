@@ -1,4 +1,4 @@
-Just an small app, that shows a list of users that comes from Json placeholder api. 
+Just an small app, that shows a list of users that come from Json placeholder api. 
 
 If you are curious to see it, running on real time. You can do it at: https://mariolemus.github.io/user.mini_app/ 
 
