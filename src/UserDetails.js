@@ -23,7 +23,7 @@ const UserDetails = (  ) => {
         return (
                 <div className="container">
                         <div>
-                                <Link to="/" className="button">Back home</Link>
+                                <Link to="/user.mini_app/" className="button">Back home</Link>
                         </div>
                         <p className="title">User info</p>
                         <p className="greet-user">
